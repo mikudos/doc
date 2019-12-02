@@ -19,9 +19,15 @@ The command line tools lived with [node.js](http://nodejs.org/) and [npm](https:
 Grpc service template are build in many defferent language, they have different dependencies the detail can be finded with these Links:
 
 [Grpc server in Javascript](/grpc-server/javascript/)
+
 [Grpc server in Typescript](/grpc-server/typescript/)
+
 [Grpc server in Python](/grpc-server/python/)
+
 [Grpc server in Java](/grpc-server/java/)
+
 [Grpc server in C#](/grpc-server/c#/)
+
 [Grpc server in c++](/grpc-server/c++/)
+
 [Grpc server in ruby](/grpc-server/ruby/)
