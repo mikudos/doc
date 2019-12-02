@@ -16,7 +16,7 @@ sections:
       component: building_block.html
       type: reviewsblock
       bg: white
-      title: Testimonials
+      title: Building Blocks
       subtitle: >-
           Aliquam malesuada ligula eget est fringilla blandit. Integer finibus
           semper libero id sodales.
