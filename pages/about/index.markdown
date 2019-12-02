@@ -14,20 +14,20 @@ The name shows the base archtechture of this framework. The Core Idea of us is b
 
 The command line tools lived with [node.js](http://nodejs.org/) and [npm](https://www.npmjs.com/)/[Yarn](https://yarnpkg.com). You need to install them first.
 
-#### [Grpc service](/grpc-server/)
+#### [Grpc service]({{ page.baseurl }}/grpc-server/)
 
 Grpc service template are build in many defferent language, they have different dependencies the detail can be finded with these Links:
 
-[Grpc server in Javascript](/grpc-server/javascript/)
+[Grpc server in Javascript]({{ page.baseurl }}/grpc-server/javascript/)
 
-[Grpc server in Typescript](/grpc-server/typescript/)
+[Grpc server in Typescript]({{ page.baseurl }}/grpc-server/typescript/)
 
-[Grpc server in Python](/grpc-server/python/)
+[Grpc server in Python]({{ page.baseurl }}/grpc-server/python/)
 
-[Grpc server in Java](/grpc-server/java/)
+[Grpc server in Java]({{ page.baseurl }}/grpc-server/java/)
 
-[Grpc server in C#](/grpc-server/c#/)
+[Grpc server in C#]({{ page.baseurl }}/grpc-server/c#/)
 
-[Grpc server in c++](/grpc-server/c++/)
+[Grpc server in c++]({{ page.baseurl }}/grpc-server/c++/)
 
-[Grpc server in ruby](/grpc-server/ruby/)
+[Grpc server in ruby]({{ page.baseurl }}/grpc-server/ruby/)
