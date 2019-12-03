@@ -5,13 +5,12 @@ sections:
       component: hero_block.html
       type: heroblock
       image: assets/images/hero.png
-      title: This Is A Big Hero Headline
+      title: Micro service framework
       content: >-
-          Azimuth is the perfect theme for developers, designers and entrepreneurs
-          who need a sleek, modern SaaS site.
+          Mikudos is build on top of micro-service + grpc + kubernetes(istio + helm deploy) + docker.
       actions:
           - label: Learn More
-            url: /features
+            url: /about
     - section_id: reviews
       component: building_block.html
       type: reviewsblock
