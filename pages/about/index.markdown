@@ -1,6 +1,7 @@
 ---
 layout: page
 title: About
+hideLogo: true
 permalink: /about/
 ---
 

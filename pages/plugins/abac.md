@@ -1,6 +1,8 @@
 ---
 layout: page
 subtitle: ABAC
+collectionName: Plugin
+collectionColor: orange
 permalink: /plugins/abac/
 ---
 

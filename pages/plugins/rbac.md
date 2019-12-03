@@ -1,6 +1,8 @@
 ---
 layout: page
 subtitle: RBAC
+collectionName: Plugin
+collectionColor: orange
 permalink: /plugins/rbac/
 ---
 
