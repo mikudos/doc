@@ -9,7 +9,7 @@ Mikudos is a micro service Framework with a set of micro services in structure o
 
 #### The Name MiKudos means Micro service + Kubernetes + Docker.
 
-The name shows the base archtechture of this framework. The Core Idea of us is build several micro services Templates as start point for you to easy getting start with the Micro services infrastracture. The Internal communication use [Grpc standart](https://grpc.io), witch designed by [Google](https://google.com), as a powerful method to dist the Send package and easy to use Remote Procedure Call for Unify or Duplex stream message. You could use Mikudos to generate a start Point for Grpc server with Several programming Language. With the power of Grpc and kubernetes, we want provide defferent templates to satisfy all different business type, such as: e-commerce, online-game.
+The name shows the base archtechture of this framework. The Core Idea of us is build several micro services Templates as start point for you to easy getting start with the Micro services infrastracture. The Internal communication use [Grpc standart](https://grpc.io), designed by [Google](https://google.com), as a powerful method to dist the Send package and easy to use Remote Procedure Call for Unify or Duplex stream message. You could use Mikudos to generate a start Point for Grpc server with Several programming Language. With the power of Grpc and kubernetes, we want provide defferent templates to satisfy all different business type, such as: e-commerce, online-game.
 
 #### Command Line Tools
 
