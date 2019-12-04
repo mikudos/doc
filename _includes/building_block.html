@@ -15,18 +15,20 @@
             <div class="grid">
                 {% for review in include.section.reviews %}
                 <blockquote class="cell review">
-                    <div class="review-inside">
-                        <p><img src="{{ review.mark }}" alt="" srcset=""></p>
-                        <h2>{{ review.title }}</h2>
-                        <p class="review-text">{{ review.content }}</p>
-                        <footer class="review-footer">
-                            {% assign avatar_is_not_empty = review.avatar | is_not_empty %}
-                            {% if avatar_is_not_empty %}
-                            <img class="review-avatar" src="{{ review.avatar | relative_url }}" alt="Author avatar">
-                            {% endif %}
-                            <cite class="review-author">{{ review.author }}</cite>
-                        </footer>
-                    </div><!-- .review-inside -->
+                    <a href="{{ review.link | relative_url }}" class="review-link">
+                        <div class="review-inside">
+                            <p><img src="{{ review.mark }}" alt="" srcset=""></p>
+                            <h2>{{ review.title }}</h2>
+                            <p class="review-text">{{ review.content }}</p>
+                            <footer class="review-footer">
+                                {% assign avatar_is_not_empty = review.avatar | is_not_empty %}
+                                {% if avatar_is_not_empty %}
+                                <img class="review-avatar" src="{{ review.avatar | relative_url }}" alt="Author avatar">
+                                {% endif %}
+                                <cite class="review-author">{{ review.author }}</cite>
+                            </footer>
+                        </div><!-- .review-inside -->
+                    </a>
                 </blockquote><!-- .review -->
                 {% endfor %}
             </div><!-- .grid -->

@@ -8,14 +8,22 @@ permalink: /gate/
 
 #### Gate is the server for client to directly connect to. All Gates will functionally as different front-end server, They handle requests directly with GRPC services as back-end support.
 
-### [SocketIo message server](socketio-message/)
+---
 
-Standalone SocketIo Gate Server. We provide easy to used implementation for JSON-RPC, Chat-Service, Duplex Grpc call management.
+-   ### SocketIo message server
 
-### [Express injection](socketio-message/)
+    Standalone SocketIo Gate Server. We provide easy to used implementation for JSON-RPC, Chat-Service, Duplex Grpc call management.
 
-inject into a express Server
+    [Details](socketio-message/)
 
-### [Feathersjs injection](feathersjs-injection/)
+-   ### Express injection
 
-inject into a Feathersjs Server
+    inject into a express Server
+
+    [Details](socketio-message/)
+
+-   ### Feathersjs injection
+
+    inject into a Feathersjs Server
+
+    [Details](socketio-message/)

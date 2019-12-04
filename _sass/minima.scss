@@ -69,11 +69,11 @@ $palette: (primary: #4c5267,
 }
 
 // Import partials.
-@import "minima/base",
-"minima/layout",
-"minima/syntax-highlighting",
-"imports/functions",
+@import "imports/functions",
 "imports/icons",
 "imports/structure",
-"imports/sections"
+"imports/sections",
+"minima/base",
+"minima/layout",
+"minima/syntax-highlighting"
 ;

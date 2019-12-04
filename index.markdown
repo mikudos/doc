@@ -24,6 +24,7 @@ sections:
             title: >-
                 Gate
             mark: https://img.shields.io/badge/MIKUDOS-Gate-blue?style=for-the-badge&logo=appveyor
+            link: /gate/
             content: >-
                 Vestibulum a nunc ut eros condimentum posuere. Nullam dapibus quis
                 nunc non interdum. Pellentesque tortor ligula, gravida ac commodo eu.
@@ -32,6 +33,7 @@ sections:
             title: >-
                 Grpc-server
             mark: https://img.shields.io/badge/MIKUDOS-GRPC--server-lightgrey?style=for-the-badge&logo=appveyor
+            link: /grpc-server/
             content: >-
                 Sed laoreet magna commodo libero euismod sodales. Nunc ac libero
                 convallis, interdum ligula vel, pretium diam. Integer commodo sem at
@@ -41,6 +43,7 @@ sections:
             title: >-
                 Plugin
             mark: https://img.shields.io/badge/MIKUDOS-Plugin-orange?style=for-the-badge&logo=appveyor
+            link: /plugins/
             content: >-
                 Integer consectetur purus neque, ac porttitor enim convallis vitae.
                 Interdum et malesuada fames ac ante ipsum primis in faucibus.
@@ -49,6 +52,7 @@ sections:
             title: >-
                 Generator
             mark: https://img.shields.io/badge/MIKUDOS-Generator-brightgreen?style=for-the-badge&logo=appveyor
+            link: /genrator/
             content: >-
                 Integer consectetur purus neque, ac porttitor enim convallis vitae.
                 Interdum et malesuada fames ac ante ipsum primis in faucibus.
@@ -57,6 +61,7 @@ sections:
             title: >-
                 Deployment
             mark: https://img.shields.io/badge/MIKUDOS-Deployment-ff69b4?style=for-the-badge&logo=appveyor
+            link: /deployment/
             content: >-
                 Integer consectetur purus neque, ac porttitor enim convallis vitae.
                 Interdum et malesuada fames ac ante ipsum primis in faucibus.
@@ -66,4 +71,3 @@ layout: home
 Mikudos is a micro service Framework with a set of micro services in structure of micro-service + grpc + kubernetes(istio + helm deploy) + docker.
 
 Mikudos just want to do all the dirty things, which waste your time and block your way.
-

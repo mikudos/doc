@@ -271,6 +271,11 @@
             }
         }
 
+        .review-link {
+            color: _palette(primary);
+            text-decoration: none;
+        }
+
         .review-inside {
             display: -webkit-flex;
             display: -ms-flexbox;
