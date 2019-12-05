@@ -19,17 +19,14 @@ sections:
       subtitle: >-
           Mikudos has several different part provided for user to build their micro services server: Client Gate Grpc-Server Plugin(Grpc-Service) Generator
       reviews:
-          - author: John Doe
-            avatar: images/review1.jpg
+          - author: JS / TS
             title: >-
                 Gate
             mark: https://img.shields.io/badge/MIKUDOS-Gate-blue?style=for-the-badge&logo=appveyor
             link: /gate/
             content: >-
-                Vestibulum a nunc ut eros condimentum posuere. Nullam dapibus quis
-                nunc non interdum. Pellentesque tortor ligula, gravida ac commodo eu.
-          - author: Jane Roe
-            avatar: images/review2.jpg
+                Gate works as front-end service. Gate handle normal client side connections and requests, and handle these request or transit them to the back end service. We want to provide Gate template, which can work as general server for both normal Business or Game server.
+          - author: JS / TS / PYTHON / GOLANG / RUBY / C++ / C#
             title: >-
                 Grpc-server
             mark: https://img.shields.io/badge/MIKUDOS-GRPC--server-lightgrey?style=for-the-badge&logo=appveyor
@@ -38,8 +35,7 @@ sections:
                 Sed laoreet magna commodo libero euismod sodales. Nunc ac libero
                 convallis, interdum ligula vel, pretium diam. Integer commodo sem at
                 dui sollicitudin, vel posuere justo laoreet.
-          - author: Richard Roe
-            avatar: images/review3.jpg
+          - author: RBAC & Schedule & EventAggregate
             title: >-
                 Plugin
             mark: https://img.shields.io/badge/MIKUDOS-Plugin-orange?style=for-the-badge&logo=appveyor
@@ -47,8 +43,7 @@ sections:
             content: >-
                 Integer consectetur purus neque, ac porttitor enim convallis vitae.
                 Interdum et malesuada fames ac ante ipsum primis in faucibus.
-          - author: Richard Roe
-            avatar: images/review3.jpg
+          - author: \@mikudos/cli
             title: >-
                 Generator
             mark: https://img.shields.io/badge/MIKUDOS-Generator-brightgreen?style=for-the-badge&logo=appveyor
@@ -57,7 +52,6 @@ sections:
                 Integer consectetur purus neque, ac porttitor enim convallis vitae.
                 Interdum et malesuada fames ac ante ipsum primis in faucibus.
           - author: Richard Roe
-            avatar: images/review3.jpg
             title: >-
                 Deployment
             mark: https://img.shields.io/badge/MIKUDOS-Deployment-ff69b4?style=for-the-badge&logo=appveyor
