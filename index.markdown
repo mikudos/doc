@@ -32,25 +32,21 @@ sections:
             mark: https://img.shields.io/badge/MIKUDOS-GRPC--server-lightgrey?style=for-the-badge&logo=appveyor
             link: /grpc-server/
             content: >-
-                Sed laoreet magna commodo libero euismod sodales. Nunc ac libero
-                convallis, interdum ligula vel, pretium diam. Integer commodo sem at
-                dui sollicitudin, vel posuere justo laoreet.
+                Grpc server sind templates for easy implemention of the Grpc methods. The Grpc server take the .proto file as service description, and make a docker container starter with implementation of all the service methods. Different grpc services communicate with other services or containers with grpc-call and kafka as event broker.
           - author: RBAC & Schedule & EventAggregate
             title: >-
                 Plugin
             mark: https://img.shields.io/badge/MIKUDOS-Plugin-orange?style=for-the-badge&logo=appveyor
             link: /plugins/
             content: >-
-                Integer consectetur purus neque, ac porttitor enim convallis vitae.
-                Interdum et malesuada fames ac ante ipsum primis in faucibus.
+                Plugins work as single independent docker container. The Plugins can be used neben by the other Mikudos service. We want to provide a lot of different Plugins to auto finish your Jobs. We just want to help these independent Developers to use their spare time to make their Gaint Ideas come true.
           - author: \@mikudos/cli
             title: >-
                 Generator
             mark: https://img.shields.io/badge/MIKUDOS-Generator-brightgreen?style=for-the-badge&logo=appveyor
             link: /genrator/
             content: >-
-                Integer consectetur purus neque, ac porttitor enim convallis vitae.
-                Interdum et malesuada fames ac ante ipsum primis in faucibus.
+                Mikudos generator is write in node.js.
           - author: Richard Roe
             title: >-
                 Deployment
