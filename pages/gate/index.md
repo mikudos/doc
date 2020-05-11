@@ -10,20 +10,20 @@ permalink: /gate/
 
 ---
 
--   ### SocketIo message server
+-   ### SocketIo gate server
 
     Standalone SocketIo Gate Server. We provide easy to used implementation for JSON-RPC, Chat-Service, Duplex Grpc call management.
 
-    [Details](socketio-message/)
+    [Details](socketio-gate/)
 
 -   ### Express injection
 
     inject into a express Server
 
-    [Details](socketio-message/)
+    [Details](socketio-gate/)
 
 -   ### Feathersjs injection
 
     inject into a Feathersjs Server
 
-    [Details](socketio-message/)
+    [Details](socketio-gate/)
