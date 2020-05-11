@@ -1,16 +1,16 @@
 ---
 layout: default
 ---
-<div class="wrapper">
+<div class="InnerWrapper">
     <article class="post">
 
         <header class="post-header">
             <img src="https://img.shields.io/badge/MIKUDOS-{{ page.collectionName }}-{{ page.collectionColor }}?style=for-the-badge&logo=appveyor"
                 alt="" srcset="">
-            <img src="../../assets/images/hero.png" alt="" srcset="">
-            <h1 class="post-title">{{ page.subtitle | escape }}</h1>
+            <img src="../../assets/images/hero.png" alt="" srcset="" class="page-logo">
         </header>
 
+        <h1 class="post-title">{{ page.subtitle | escape }}</h1>
         <div class="post-content">
             {{ content }}
         </div>
